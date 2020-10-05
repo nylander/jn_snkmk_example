@@ -37,15 +37,6 @@ rule cat_1:
 #        "for f in {input} ; do cat $f >> {output} ; done"
 
 #rule cat_4:
-#    """Works on 8,000 input files, not 18,000"""
-#    input:
-#        expand("data/{ref}.fas", ref=refs)
-#    output:
-#        "concatenated.fas"
-#    shell:
-#        "cat {input} > {output}"
-
-#rule cat_5:
 #    """Works on 8,000 AND 18,000 input files"""
 #    output:
 #        "concatenated.fas"

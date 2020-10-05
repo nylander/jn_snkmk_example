@@ -1,23 +1,18 @@
 #! /bin/bash
 
 # File: generate_data.sh
-# Version: 2020-09-01 11:37
+# Version: 2020-10-05
 # By: Johan Nylander <johan.nylander@nbis.se>
 # Usage: ./generate_data.sh [n]
 # Options: n is number of generated fasta files.
-# Description: Set up files and folders jn_snkmk_example.
+# Description: Generate data in folder data.
 # Example output:
 #  .
-#  ├── concatenated.fas
-#  ├── data
-#  │   ├── 1.fas
-#  │   ├── 2.fas
-#  │   ├── 3.fas
-#  │   └── 4.fas
-#  ├── Makefile
-#  ├── README.md
-#  ├── setup.sh
-#  └─── Snakefile
+#  └── data
+#      ├── 1.fas
+#      ├── 2.fas
+#      ├── 3.fas
+#      └── 4.fas
 
 set -euo pipefail
 
